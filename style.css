@@ -1,0 +1,639 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+
+#hd1 {
+    background-color: rgba(124, 50, 118, 255);
+    height: 61px;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: px;
+    z-index: 3;
+    display: flex;
+}
+
+.navicon {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* #callicon {
+    position: relative;
+    left: 520px;
+    top: 19px;
+}
+
+#emailicon {
+    position: relative;
+    left: 520px;
+    top: 19px;
+}
+
+#faceicon {
+    position: relative;
+    right: 520px;
+    top: 19px;
+    background-image: url(14.svg);
+    background-size: contain;
+}
+
+#instaicon {
+    position: relative;
+    right: 520px;
+    top: 19px;
+}
+
+#twittericon {
+    position: relative;
+    right: 520px;
+    top: 19px;
+} */
+
+.faceboo {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+
+
+}
+
+.faceboo i {
+
+    margin-left: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.faceboo i:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+
+.cal {
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    padding-right: 100px;
+
+}
+
+.cal i {
+
+    margin-left: 20px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.cal i:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+#hd2 {
+    background-color: rgba(255, 255, 255, 255);
+    height: 100px;
+    width: 100vw;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 61px;
+    z-index: 3;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 80px;
+
+}
+
+.line:hover {
+    border-bottom: 1px solid black;
+}
+
+
+#image {
+    display: inline-block;
+    position: relative;
+    right: 130px;
+    height: 200px;
+
+}
+
+
+#mdbg {
+    background-color: rgba(255, 255, 255, 255);
+    height: 2335px;
+    width: 100vw;
+    color: black;
+    border: 2px solid black;
+    z-index: 2;
+}
+
+#h1 {
+    background-color: rgba(255, 255, 255, 255);
+    height: 100px;
+    width: auto;
+    font-size: 29px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 220px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+}
+
+#h1two {
+    background-color: rgba(255, 255, 255, 255);
+    height: 170px;
+    width: auto;
+    font-size: 29px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 410px;
+    left: 80px;
+    display: inline-block;
+    line-height: 1.4;
+    letter-spacing: -6px;
+
+}
+
+#h1three {
+    background-color: rgba(255, 255, 255, 255);
+    height: 170px;
+    width: auto;
+    font-size: 18px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 680px;
+    left: 80px;
+    display: inline-block;
+    line-height: 1.4;
+    letter-spacing: -3px;
+}
+
+#text {
+    position: absolute;
+    left: 80px;
+    top: 320px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#text2 {
+    position: absolute;
+    left: 80px;
+    top: 600px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    line-height: 1.4;
+
+}
+
+#t-shirt {
+    background-color: rgb(253, 253, 253);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 750px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box1.png);
+    background-size: cover;
+}
+
+#t-shirttext {
+    position: absolute;
+    left: 80px;
+    top: 840px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#Jackets {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 900px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box2.png);
+    background-size: cover;
+}
+
+
+#Jacketstext {
+    position: absolute;
+    left: 80px;
+    top: 990px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#Mugs {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1050px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box3.png);
+    background-size: cover;
+}
+
+#Mugstext {
+    position: absolute;
+    left: 80px;
+    top: 1140px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#BusinesCard {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1200px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box4.png);
+    background-size: cover;
+}
+
+#BusinesCardtext {
+
+    position: absolute;
+    left: 80px;
+    top: 1290px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#Hats {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1350px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box5.png);
+    background-size: cover;
+}
+
+#Hatstext {
+
+    position: absolute;
+    left: 80px;
+    top: 1440px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#Pens {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1500px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box6.png);
+    background-size: cover;
+}
+
+#Penstext {
+    position: absolute;
+    left: 80px;
+    top: 1590px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#Banners {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1650px;
+    left: 80px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(/Image/box7.png);
+    background-size: cover;
+}
+
+#Bannerstext {
+    position: absolute;
+    left: 80px;
+    top: 1740px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+}
+
+#h1four {
+    background-color: rgba(255, 255, 255, 255);
+    height: auto;
+    width: auto;
+    font-size: 22px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 1850px;
+    left: 80px;
+    display: inline-block;
+    line-height: 1.4;
+    letter-spacing: -3px;
+}
+
+#h1fourtext {
+    position: absolute;
+    left: 80px;
+    top: 1915px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+    line-height: 1.9;
+}
+
+#h1five {
+    background-color: rgba(255, 255, 255, 255);
+    height: auto;
+    width: auto;
+    font-size: 22px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 2050px;
+    left: 80px;
+    display: inline-block;
+    line-height: 1.4;
+    letter-spacing: -3px;
+}
+
+#h1fivetext {
+    position: absolute;
+    left: 80px;
+    top: 2110px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    display: inline-block;
+    z-index: 1;
+    line-height: 1.9;
+}
+
+#fd1 {
+    height: 500px;
+    width: auto;
+    background-color: rgba(61, 61, 61, 255);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-contact {
+
+    display: inline-block;
+    background-color: lightblue;
+    width: 30%;
+    background-color: #3d3d3d;
+}
+
+.footer {
+    background-color: #3d3d3d;
+    color: white;
+    margin-top: 35px;
+    height: 40px;
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    border: none;
+}
+
+.footer a:hover {
+    color: #acaaaa;
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+.soc-icon {
+    margin-top: 75px;
+}
+
+.soc-icon i {
+
+    font-size: 30px;
+}
+
+.our-mission {
+    display: inline-block;
+    background-color: #3d3d3d;
+    width: 30%;
+    /* border: 2px solid black; */
+
+}
+
+.click-here {
+
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: darkorange;
+    margin-top: 20px;
+    color: black;
+
+}
+
+.click-here:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.our-mission p {
+    text-align: start;
+    font-size: 1.1rem;
+    line-height: 2;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.our-mission h2 {
+
+    padding-left: 0px;
+}
+
+.google-map {
+    display: inline-block;
+    background-color: lightblue;
+    width: 32%;
+    /* border: 2px solid black; */
+    background-color: #3d3d3d;
+
+
+}
+
+h2 {
+    text-align: start;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: 900;
+}
+
+iframe {
+    height: 300px;
+    width: 316px;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* #contact {
+    display: inline block;
+    height: 450px;
+    width: 500px;
+    background-color: blue;
+}
+
+.h1info {
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px 60px 0px 0px;
+
+}
+
+.nav2 {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#loc {
+    position: relative;
+    right: 150px;
+    top: 30px;
+}
+
+#locanchortext{
+    text-decoration: none;
+    color: white;
+}
+
+.loctext{
+    
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    z-index: 10;
+    /* right: 50px; */
+
+
+/* }
+
+#pho {
+    position: relative;
+    right: 150px;
+    top: 90px;
+}
+
+#ema {
+    position: relative;
+    right: 150px;
+    top: 115px;
+}
+
+#clock {
+    position: relative;
+    right: 150px;
+    top: 140px;
+}
+
+#face {
+    position: relative;
+    right: 150px;
+    top: 200px;
+}
+
+#insta {
+    position: relative;
+    right: 100px;
+    top: 165px;
+}
+
+#x {
+    position: relative;
+    right: 60px;
+    top: 130px;
+} */
+
+
+#fd2 {
+    height: 42px;
+    width: auto;
+    background-color: rgba(242, 242, 242, 255);
+    color: black;
+    padding-left: 65px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
